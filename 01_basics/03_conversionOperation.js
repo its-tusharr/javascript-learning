@@ -2,7 +2,7 @@
 let score = "33abc"
 // conversion in number pr ye abc number mei convert nhi hona cahiye
 let valueInNumber = Number(score)
-/console.log(valueInNumber, typeof valueInNumber)
+console.log(valueInNumber, typeof valueInNumber)
 // Output: NaN "number" (33 jo hai wo convert ho gaya, lekin "abc" ko number mei convert nhi kiya ja sakta, isliye NaN (not a number))
 
 let score = 33
