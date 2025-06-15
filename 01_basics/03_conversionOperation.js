@@ -39,11 +39,11 @@ let negValue = -value
 console.log(negValue) // -3;
 
 // more operations
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**2);
-// console.log(2%2);
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2%2);
 
 // complex operations
 
