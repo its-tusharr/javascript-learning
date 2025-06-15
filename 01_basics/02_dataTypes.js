@@ -15,3 +15,5 @@ let state;
 
 /*non-premitive*/
 // object
+// functions
+// array
