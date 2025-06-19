@@ -16,7 +16,7 @@ console.log(Math.floor(Date.now()/1000));//agar sirf Date.now()/1000 likhenge to
 
 //different syntex
 let newDate = new Date()
-console.log(newDate.getMonth() + 1);// ye months 
+console.log(newDate.getMonth() + 1);//isse ans decimal mei nhi aata
 console.log(newDate.getDay());
 
 //one more method Localstring ki
@@ -24,7 +24,3 @@ let newDate = new newDate.toLocaleString("default" , {
     weekday:"narrow"
 })
 
-// function to add two number
-function add(a, b){
-    
-}
