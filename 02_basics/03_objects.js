@@ -29,7 +29,7 @@ console.log(regularUser.fullname?.userfullname.firstname);// ishe kehte hai opti
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj3 = Object.assign(obj1, obj2)//ye ishiliye likhte hai taki object ke andr objec na ayee
-const obj3 = Object.assign({}, obj1, obj2)//ye curly bracket ishiliye lagate hai tai koi bhi error ke chnces na ho 
+const obj3 = Object.assign({}, obj1, obj2)//ye curly bracket ishiliye lagate hai tai koi bhi error ke chances na ho 
 console.log(obj3);
 //aur ek best way hai *spread* use krne ka :-
 const obj3 = {...obj1, ...obj2}
