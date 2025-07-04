@@ -54,4 +54,29 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage())
 
-// ! if situation me (!) lagane se wo situation ko ulta kr deta hai matlab ki true ko false bana deta hai afalse ko true 
+! if situation me (!) lagane se wo situation ko ulta kr deta hai matlab ki true ko false bana deta hai afalse ko true 
+
+//****************more of functions***************//
+
+//jab hamen multiple values pass karani hoti hai toh hum rest operator use krte hai just like spread [...num] 
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 300, 500))// isse jitni chahe utni value output mei aa jayegi
+
+// objects mei function pass krna 
+const user = {
+    username: "tushar",
+    price: 230
+}
+function handleObject (anyObject) {
+   console.log(`username is ${anyObject.username} and teh price is ${anyObject.price}`);
+}
+handleObject (user)
+
+//array mei function pass pass krna 
+const myNweArray = [200, 300, 700]
+function returnSecondValue(getArray){
+    return getArray[1]// yahan pr jo value cahiye wo isnsert kna hai 
+}
+console.log(returnSecondValue(myNweArray));// toh yehan se hamen iss array ki second value mil jayegi
