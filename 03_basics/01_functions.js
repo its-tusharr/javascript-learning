@@ -21,7 +21,7 @@ function addTwoNumbers (number1, number2){
     let result = number1 + number2
     return result    
 }
-const result = addTwoNumbers(3, 7)
+const result1 = addTwoNumbers(3, 7)
 console.log("Result:", result);
 // toh ab iska output result : 10 ayega 
 
@@ -29,7 +29,7 @@ console.log("Result:", result);
 function addTwoNumbers (number1, number2){
    return number1 + number2
 }
-const result = addTwoNumbers(3, 7)
+const result2 = addTwoNumbers(3, 7)
 console.log("Result:", result);
 
 // ek aur function :-
@@ -54,7 +54,7 @@ function loginUserMessage(username){
 }
 console.log(loginUserMessage())
 
-! if situation me (!) lagane se wo situation ko ulta kr deta hai matlab ki true ko false bana deta hai afalse ko true 
+// ! if situation me (!) lagane se wo situation ko ulta kr deta hai matlab ki true ko false bana deta hai afalse ko true 
 
 //****************more of functions***************//
 
