@@ -26,7 +26,7 @@ const chai = () => {// bs yahan function ki jagha => ye likh dete hai
 }
 chai()
 
-() => {} // this is the basic syntex of arrow function
+const basicArrow = () => {}; // this is the basic syntex of arrow function
 
 //basic arrow function :-
 const addTwo = (num1, num2) => { // jab bhi curly braces use karte hai to hume return statement likhna padta hai
